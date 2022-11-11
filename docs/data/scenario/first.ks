@@ -1,46 +1,50 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="9回裏同点2アウト満塁フルカウントの攻防"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「9回裏同点2アウト満塁フルカウントの攻防」[l][r]
 
-メロスは激怒した。[l][r]
+捕手の出したサインに、投手の太郎は首を振った。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+サインは外角低めの直球であったが、自信のある変化球に逃げたくなってしまった。[l][r]
 
-(中略)[l][r]
+どの球種にしようか？[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_breaking] →一番得意なフォーク [endlink][r]
+[link target=*tag_pick] →１塁に牽制球 [endlink][r]
+[link target=*tag_straight] →やっぱり直球 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_breaking
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+太郎は渾身のフォークを投じた。[l][r]
+ボールは、打者の１メートルほど手前に強くたたきつけられた。[r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
-
-【 BAD END 】[l][cm]
+【 BAD END 】サヨナラフォアボール[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_pick
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+太郎は満塁であるにもかかわらず１塁に牽制球を送った。[l][r]
+ボールは、猛スピードで1塁手の頭上を通り抜けた。[l][r]
+3塁ランナーが、生還した。[r]
 
-【 GOOD END 】[l][cm]
+【 BAD END 】サヨナラ牽制悪送球[l][cm]
+
+[jump target=*start]
+
+*tag_straight
+
+[cm]
+太郎は考えを改め、捕手の選択を信じることにした。[l][r]
+力んだ彼が投げた渾身のボールは、大きな弧を描いて捕手のはるか頭上を通り抜けた。[l][r]
+【 BAD END 】サヨナラ暴投[l][cm]
 
 [jump target=*start]
